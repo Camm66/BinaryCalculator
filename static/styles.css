@@ -1,0 +1,42 @@
+html {
+  background-color: #bccad6;
+}
+
+#calculator{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%
+}
+
+#calculator h1{
+  text-align: center;  
+}
+
+#display{
+  background-color: #f1e3dd;
+  border: solid;
+  height: 48px;
+  font-size: 20px;
+}
+
+.displayBtns{}
+#zero, #one, #clear, #calculate{
+    background-color: #8d9db6;
+    color:white;
+}
+
+.operationBtns{}
+#add, #minus, #multiply, #divide{
+    background-color: #667292;
+    color:white;
+}
+
+button {
+  width: 25%;
+  height: 36px;
+  font-size: 18px;
+  margin:0;
+  float: left;
+}
